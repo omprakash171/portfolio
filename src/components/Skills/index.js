@@ -6,24 +6,36 @@ class Skills extends Component {
     const skillsData = [
       {
         category: "Frontend Development",
-        skills: ["HTML5", "CSS3", "JavaScript (ES6+)", "React.js", "Bootstrap", "Tailwind CSS"]
+        skills: [
+          "HTML5",
+          "CSS3",
+          "JavaScript (ES6+)",
+          "React.js",
+          "Bootstrap",
+          "Tailwind CSS",
+        ],
       },
       {
         category: "Backend Development",
-        skills: ["Node.js", "Express.js", "SQLite", "MongoDB", "REST APIs"]
+        skills: ["Node.js", "Express.js", "SQLite", "MongoDB", "REST APIs"],
       },
       {
         category: "Programming Languages",
-        skills: ["C", "C++", "Python"]
+        skills: ["C", "C++", "Python"],
       },
       {
         category: "Tools & Platforms",
-        skills: ["Git & GitHub", "VS Code", "Cursor AI"]
+        skills: ["Git & GitHub", "VS Code", "Cursor AI"],
       },
       {
         category: "Soft Skills",
-        skills: ["Problem-Solving", "Team Collaboration", "Adaptability", "Time Management"]
-      }
+        skills: [
+          "Problem-Solving",
+          "Team Collaboration",
+          "Adaptability",
+          "Time Management",
+        ],
+      },
     ];
 
     return (
