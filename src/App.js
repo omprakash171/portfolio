@@ -1,28 +1,40 @@
+// src/App.js
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
-import "./App.css";
 import Learnings from "./components/Learnings";
 import Blog from "./components/Blog";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import "./App.css";
 
-const App = () => {
+function App() {
   return (
-    <div className="app-container">
+    <Router>
       <Navbar />
-      <Hero />
-      <About />
-      <Projects />
-      <Skills />
-      <Learnings />
-      <Blog />
-      <Contact />
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <>
+              <Hero />
+              <About />
+              <Projects />
+              <Skills />
+              <Learnings />
+              <Blog />
+              <Contact />
+            </>
+          }
+        />
+      </Routes>
       <Footer />
-    </div>
+    </Router>
   );
-};
+}
 
 export default App;
