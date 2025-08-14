@@ -36,3 +36,8 @@
     transform: rotate(360deg);
   }
 }
+/* my css starts here */
+.app-container{
+  background-color: aliceblue;
+  height: 100vh;
+}
