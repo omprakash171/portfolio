@@ -7,6 +7,7 @@ import "./App.css";
 import Learnings from "./components/Learnings";
 import Blog from "./components/Blog";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <Learnings />
       <Blog />
       <Contact />
+      <Footer />
     </div>
   );
 };
