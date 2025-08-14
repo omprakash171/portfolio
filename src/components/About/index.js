@@ -4,7 +4,7 @@ import "./index.css";
 class About extends Component {
   render() {
     return (
-      <section className="about">
+      <section className="about" id="about">
         <div className="about-container">
           <div className="about-image">
             <img src="/my_image_2.jpg" alt="Om Prakash Behera" />

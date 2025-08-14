@@ -63,7 +63,7 @@ class Projects extends Component {
     ];
 
     return (
-      <section className="projects-section">
+      <section className="projects-section" id="projects">
         <h2 className="section-title">Projects</h2>
         <div className="projects-container">
           {projects.map((project, index) => (

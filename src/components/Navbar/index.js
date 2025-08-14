@@ -18,13 +18,13 @@ class Navbar extends Component {
             <a href="#projects">Projects</a>
           </li>
           <li>
-            <a href="#projects">Skills</a>
+            <a href="#skills">Skills</a>
           </li>
           <li>
-            <a href="#projects">Learning</a>
+            <a href="#learnings">Learning</a>
           </li>
           <li>
-            <a href="#projects">Blog</a>
+            <a href="#blog">Blog</a>
           </li>
           <li>
             <a href="#contact">Contact</a>
